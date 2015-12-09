@@ -133,7 +133,7 @@ HTMLWidgets.widget({
       }
 
       var countString = [
-          '<span style = "font-size:.7em">',
+          '<span style = "font-size:.5em">',
           d3.format("1.2s")(d.value) + ' of ' + d3.format("1.2s")(totalSize),
           '</span>'
         ].join('')
@@ -257,7 +257,7 @@ HTMLWidgets.widget({
       entering.append("text")
           .attr("x", (b.w + b.t) / 2)
           .attr("y", b.h / 2)
-          .attr("dy", "0.35em")
+          .attr("dy", "0.25em")
           .attr("text-anchor", "middle")
           .text(function(d) { return d.name; });
 
@@ -273,7 +273,7 @@ HTMLWidgets.widget({
       d3.select(el).select("#" + el.id + "-trail").select("#" + el.id + "-endlabel")
           .attr("x", (nodeArray.length + 0.5) * (b.w + b.s))
           .attr("y", b.h / 2)
-          .attr("dy", "0.35em")
+          .attr("dy", "0.25em")
           .attr("text-anchor", "middle")
           .text(percentageString);
 
@@ -330,7 +330,7 @@ HTMLWidgets.widget({
       g.append("text")
           .attr("x", li.w / 2)
           .attr("y", li.h / 2)
-          .attr("dy", "0.35em")
+          .attr("dy", "0.25em")
           .attr("text-anchor", "middle")
           .text(function(d) { return d; });
     }
