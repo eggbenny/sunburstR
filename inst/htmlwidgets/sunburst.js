@@ -27,7 +27,7 @@ HTMLWidgets.widget({
 
     // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
     var b = {
-      w: 200, h: 30, s: 3, t: 10
+      w: 200, h: 20, s: 3, t: 10
     };
 /*
     // Mapping of step names to colors.
@@ -287,7 +287,7 @@ HTMLWidgets.widget({
 
       // Dimensions of legend item: width, height, spacing, radius of rounded rect.
       var li = {
-        w: 200, h: 30, s: 3, r: 3
+        w: 200, h: 20, s: 3, r: 3
       };
 
       // remove if already drawn
