@@ -1,6 +1,7 @@
 .sunburst-main {
   width: 90%;
   height: 100%;
+  background-color: #000;
 }
 
 .sunburst-sidebar {
@@ -8,6 +9,7 @@
   width: 50%;
   left: 80%;
   top: 10px;
+  background-color: #000;
 }
 
 .sunburst-sequence {
@@ -32,6 +34,7 @@
   height: 100%;
   position: absolute;
   top: 70px;
+  background-color: #000;
 }
 
 .sunburst-chart path {
