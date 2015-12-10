@@ -18,10 +18,12 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  background-color: #000;
 }
 
 .sunburst-legend {
   padding: 2px 0 0 3px;
+  background-color: #000;
 }
 
 .sunbrust-sequence text, .sunburst-legend text {
