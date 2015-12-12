@@ -22,7 +22,7 @@ HTMLWidgets.widget({
 
     d3.select(el).select(".sunburst-chart").append("svg")
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", 800);
 
 
     // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
